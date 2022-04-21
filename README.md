@@ -1,6 +1,5 @@
 # WD-302-No-pollution-is-the-only-solution
 This is an advocacy project with the title “No pollution is the only solution”
-\
 
 Final project requirement in Advanced Dynamic Web Applications Second Semester A.Y. 2021-2022
 
