@@ -1,0 +1,42 @@
+
+mat-label {
+    color: black;
+}
+
+hr {
+    width: 90%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.radio-indent {
+    text-indent: 1rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background-color: green;
+}
+
+.contact-us, .form-section {
+    margin-left: 5rem;
+}

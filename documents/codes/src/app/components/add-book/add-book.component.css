@@ -1,0 +1,38 @@
+
+
+h5 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+/*
+input {
+    height: 2rem;
+    width: 15rem;
+}
+*/
+
+button {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+button:hover {
+    background-color: green;
+}
+
+#fixed-position {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4 {
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

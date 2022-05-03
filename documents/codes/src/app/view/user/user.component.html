@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+<br><br><br>
+
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" opened position="end" style="width: 20rem;">
+        <app-sideform></app-sideform>
+        
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+<app-footer></app-footer>

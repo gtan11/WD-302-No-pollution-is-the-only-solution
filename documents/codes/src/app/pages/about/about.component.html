@@ -1,0 +1,43 @@
+<div id="article">
+    <img [src]="aboutpageImage" alt="" >
+    <h1>{{ aboutpageTitle }}</h1>
+    <p>
+        Environmentalism is a philosophy that focuses on the need for humanity to respect, protect, and preserve the natural world from manmade/human-caused diseases. Environmental awareness is the key to the movement's success. By informing our family and friends about how fragile and important the physical environment is, we may begin to address problems that harm the environment. For decades, environmentalists have advised the public to recycle, reduce, and reuse and that advice is still valid today. Small daily actions can still help promote a more sustainable and biocentric worldview, even if systemic change is required to shift our current direction. When thought and action are combined, they can make a significant difference. Our group has decided to stand and advocate "no pollution is the only option" and that reducing pollution one step at a time will help solve bigger environmental problems.
+    </p>
+    <p>
+        Many people still don't care about the pollution around the planet. We need to act now. Since we are in the digital age, we believe that creating a website is the fastest way to spread awareness and stop the problem of pollution. We need to act now for the future of the next generations.
+    </p>
+    <p>
+        Our team will make this happen, our website will help us spread awareness and support our advocacy. We will use our skills in web development to create a well-designed and functional website to influence others to save our planet. As a group, we will exhibit Angelite qualities, a person with conscience, competence, and compassion.
+    </p>
+
+</div>
+<br><br>
+<hr>
+<h2>Our Actions</h2>
+<hr>
+
+<mat-grid-list cols="2"  rowHeight="40em">
+    <mat-grid-tile *ngFor="let cardData of aboutCard">
+        <mat-card class="example-card"  >
+            <img mat-card-image src="{{cardData.image}}" alt="" style="height: 15rem;">
+            <mat-card-header>                
+                <mat-card-title>{{ cardData.title }}</mat-card-title>
+                <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+            </mat-card-header>
+            <hr>
+            <mat-card-content>
+                <p>{{ cardData.description}}</p>
+            </mat-card-content>
+        <!--    <mat-card-actions>
+                <button mat-button>
+                    <a href="{{cardData.link}}" target="_blank">Learn more</a>
+                </button>
+                <button mat-button>Like</button>
+            </mat-card-actions>
+        -->
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<br><br><br>

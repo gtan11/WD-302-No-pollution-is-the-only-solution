@@ -1,0 +1,43 @@
+<div id="article">
+    <img [src]="mainArticleImage" alt="" >
+    <h1>{{ mainArticleTitle }}</h1>
+
+    <p>
+        Pollution prevention refers to any practice that reduces, eliminates, or prevents pollution before it occurs. P2, also known as "source reduction," is fundamentally different and, where feasible, more desirable than recycling, treatment, or disposal, as demonstrated by the EPA Waste Management Hierarchy. It is frequently more cost effective to prevent pollution at its source than to pay for waste control, treatment, and disposal. When there is less pollution, there are fewer negative effects on human health and the environment.
+    </p>
+    <p>
+        Pollution prevention strategies can be applied to all potential and actual polluters, including those found in the energy, agriculture, federal, consumer, and industrial sectors. Prevention practices are critical for the preservation of wetlands, groundwater sources, and other critical ecosystems - areas where we want to stop pollution before it starts.
+    </p>
+    <p>
+        Pollution prevention is very important because lowers both financial and environmental costs (waste management and cleanup) (health problems and environmental damage). Pollution prevention benefits the environment by conserving and protecting natural resources while also boosting economic growth through more efficient manufacturing in industry and reducing the need for households, businesses, and communities to manage waste.
+    </p>
+
+</div>
+<br><br>
+<hr>
+<h2>ARTICLES</h2>
+<hr>
+
+<mat-grid-list cols="2"  rowHeight="40em">
+    <mat-grid-tile *ngFor="let cardData of articleCard">
+        <mat-card class="example-card"  >
+            <img mat-card-image src="{{cardData.image}}" alt="" style="height: 15rem;">
+            <mat-card-header>                
+                <mat-card-title>{{ cardData.title }}</mat-card-title>
+                <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+            </mat-card-header>
+            <hr>
+            <mat-card-content>
+                <p>{{ cardData.description}}</p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button>
+                    <a href="{{cardData.link}}" target="_blank">Learn more</a>
+                </button>
+                <!-- <button mat-button>Like</button> -->
+            </mat-card-actions>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<br><br><br>

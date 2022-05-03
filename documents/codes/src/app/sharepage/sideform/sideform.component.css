@@ -1,0 +1,38 @@
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+}
+
+* {
+    top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h4, p {
+    text-align: center;
+}
+
+h4 {
+    width: 18rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+    color: black;
+    font-weight: bold;
+    font-stretch: 50%;
+    border-radius: 10px;
+}
+
+app-add-book {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fixed-position {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}

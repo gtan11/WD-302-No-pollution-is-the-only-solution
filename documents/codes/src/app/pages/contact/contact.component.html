@@ -1,0 +1,48 @@
+
+<div class="contact-us" >      
+    <h2>Contact Us</h2>
+    <p>Thank you for your interest in out advocacy. Please contact us via phone, mail, or the contact from below</p>
+     <p>Phone (216) 579-1822</p>
+     <P>#1 St Street
+         Angeles City, Pampanga
+         Philippines
+     </P>
+</div>
+    <br><hr>
+    
+
+<div class="form-section">
+    <h2>Contact Form</h2>
+    <form>
+    <!-- <form [formGroup]="bookForm2" (ngSubmit)="onSubmit()"> -->
+        <!-- Radio Buttons -->
+        <input type="radio" id="generalInquiry" name="fav_language" value="generalInquiry">
+        <label class="radio-indent" for="html">General Inquiry</label><br>
+        <input type="radio" id="volunteer" name="fav_language" value="volunteer">
+        <label class="radio-indent" for="css">Volunteer</label><br>
+        <input type="radio" id="donate" name="fav_language" value="donate">
+        <label class="radio-indent" for="javascript">Donate</label><br>
+        <input type="radio" id="reportProblem" name="fav_language" value="reportProblem">
+        <label class="radio-indent" for="javascript">Report a problem</label>
+        <br><br>
+
+        <!-- User Info Fields -->
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="phone_num">Phone Number:</label><br>
+        <input type="number" id="phone_num" name="phone_num"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <textarea rows="4" cols="50" name="message" form="usrform" placeholder="Type message here..."></textarea>
+        <br><br>
+        <div class="example-label">
+            <div class="example-button-row">
+                <button mat-raised-button>Submit</button>
+            </div>
+        </div>
+    </form>   
+    <br><br>
+
+</div>
